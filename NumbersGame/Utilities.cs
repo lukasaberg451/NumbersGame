@@ -6,6 +6,7 @@ namespace NumbersGame
 {
     internal class Utilities
     {
+        // Method to check if the guess was correct, lower or higher. Returns True or False.
         public static bool CheckGuess(int randomNumber, int userSelection)
         {
             bool isGuessCorrect;
